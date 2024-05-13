@@ -27,3 +27,10 @@ pip install -r .\requirments.txt
 django-admin startproject dirNameUwant
 
 py manage.py startapp api
+
+py manage.py makemigrations (backend directory)
+py manage.py migrate
+  after many changes so Django propagates changes to models into the database structure
+
+
+py manage.py runserver
