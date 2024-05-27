@@ -53,3 +53,5 @@ py manage.py migrate
 
 
 py manage.py runserver
+
+in frontend env be sure to a sign vite_api to backend api link to server
